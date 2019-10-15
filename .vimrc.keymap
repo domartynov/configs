@@ -1,0 +1,14 @@
+"vim shared config, based on https://github.com/ikenox/dotfiles/blob/master/vim/vimrc.keymap
+"   <leader> "," used in Ideavim
+
+let mapleader = ","
+inoremap jk <ESC>
+inoremap <C-j> <ESC>
+
+nnoremap L $
+vnoremap L $
+nnoremap H ^
+vnoremap H ^
+
+"noremap ; :
+"noremap : ;
