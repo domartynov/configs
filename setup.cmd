@@ -6,6 +6,9 @@ set h=%userprofile%
 del %h%\.vimrc.keymap
 mklink /h %h%\.vimrc.keymap .vimrc.keymap
 
+del %h%\.vimrc.base
+mklink /h %h%\.vimrc.base .vimrc.base
+
 del %h%\.vimrc
 mklink /h %h%\.vimrc .vimrc
 

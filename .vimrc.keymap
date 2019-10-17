@@ -2,13 +2,15 @@
 "   <leader> "," used in Ideavim
 
 let mapleader = ","
-inoremap jk <ESC>
+
+" C-j and C-c for Esc
 inoremap <C-j> <ESC>
+vnoremap <C-j> <ESC>
+inoremap <C-c> <ESC>
+vnoremap <C-c> <ESC>
 
 nnoremap L $
 vnoremap L $
 nnoremap H ^
 vnoremap H ^
 
-"noremap ; :
-"noremap : ;

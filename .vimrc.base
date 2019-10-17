@@ -1,0 +1,21 @@
+
+filetype plugin indent on
+syntax on
+set autoindent
+set encoding=utf-8
+set scrolloff=2
+set hidden
+set nowrap
+set nojoinspaces
+set splitright
+set splitbelow
+
+" Permanent undo
+set undodir=~/.vimdid
+set undofile
+
+" Proper search
+set incsearch
+set ignorecase
+set smartcase
+
