@@ -1,13 +1,12 @@
 "Ideavim config, based on https://github.com/ikenox/dotfiles/blob/master/intellij/ideavimrc
 
-source ~/.vimrc.keymap
+source ~/.vimrc.shared
 
 set clipboard=unnamed,autoselect
+
+" enable surround http://www.futurile.net/2016/03/19/vim-surround-plugin-tutorial/
 set surround
-set hlsearch
-set incsearch
-set ignorecase
-set smartcase
+set ideajoin
 
 nnoremap ,a :<C-u>action GotoAction<CR>
 vnoremap ,a :<C-u>action GotoAction<CR>
@@ -44,12 +43,14 @@ vnoremap cc :<C-u>action CommentByLineComment<CR>
 nnoremap Q :<C-u>action ShowIntentionActions<CR>
 nnoremap q :<C-u>action ShowIntentionActions<CR>
 
-nnoremap f :<C-u>action AceAction<CR>
-vnoremap f :<C-u>action AceAction<CR>
+nnoremap ,f :<C-u>action AceAction<CR>
+vnoremap ,f :<C-u>action AceAction<CR>
 
 nnoremap ,r :<C-u>action RecentFiles<CR>
 nnoremap gt :<C-u>action GotoTest<CR>
 
 nnoremap ,j :<C-u>action MethodDown<CR>
 nnoremap ,k :<c-u>action MethodUp<CR>
+vnoremap ,j :<C-u>action EditorSelectWord<CR>
+vnoremap ,k :<c-u>action EditorUnSelectWord<CR>
 

@@ -3,8 +3,8 @@ cd %~dp0
 
 set h=%userprofile%
 
-del %h%\.vimrc.keymap
-mklink /h %h%\.vimrc.keymap .vimrc.keymap
+del %h%\.vimrc.shared
+mklink /h %h%\.vimrc.shared .vimrc.shared
 
 del %h%\.vimrc.base
 mklink /h %h%\.vimrc.base .vimrc.base

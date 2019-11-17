@@ -8,7 +8,7 @@ function mklink () {
 	ln -vf "$d0/$1" "${2:-$HOME}/$1"
 }
 
-mklink .vimrc.keymap
+mklink .vimrc.shared
 mklink .vimrc.base
 mklink .vimrc
 mklink .nvimrc

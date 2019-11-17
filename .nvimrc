@@ -1,2 +1,2 @@
 source ~/.vimrc.base
-source ~/.vimrc.keymap
+source ~/.vimrc.shared
