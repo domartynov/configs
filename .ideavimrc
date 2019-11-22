@@ -54,3 +54,17 @@ nnoremap ,k :<c-u>action MethodUp<CR>
 vnoremap ,j :<C-u>action EditorSelectWord<CR>
 vnoremap ,k :<c-u>action EditorUnSelectWord<CR>
 
+" Alt mapping to match nix to send Esc
+inoremap <A-h> <Esc><h>
+inoremap <A-j> <Esc><j>
+inoremap <A-k> <Esc><k>
+inoremap <A-l> <Esc><l>
+inoremap <A-f> <Esc><f>
+inoremap <A-S-f> <Esc><S-f>
+inoremap <A-w> <Esc><w>
+inoremap <A-b> <Esc><b>
+inoremap <A-S-a> <Esc><S-a>
+inoremap <A-S-i> <Esc><S-i>
+inoremap <A-u> <Esc><u>
+inoremap <A-p> <Esc><p>
+
