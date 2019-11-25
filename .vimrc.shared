@@ -1,6 +1,6 @@
 "vim shared config, based on https://github.com/ikenox/dotfiles/blob/master/vim/vimrc.keymap
-"   <leader> "," used in Ideavim
 
+"   <leader> "," used in Ideavim
 let mapleader = ","
 
 " show line numbers

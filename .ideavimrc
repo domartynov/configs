@@ -26,8 +26,8 @@ nnoremap gb :<C-u>action JumpToLastChange<CR>
 
 "TODO review if want to loose R in IDEA
 nnoremap R :<C-u>action RenameElement<CR>
-"nnoremap ,v :<C-u>action <CR>
-"nnoremap ,n :<C-u>action <CR>
+nnoremap ,v :<C-u>action IntroduceVariable<CR>
+nnoremap ,n :<C-u>action Inline<CR>
 
 nnoremap gh :<C-u>action Back<CR>
 nnoremap gl :<C-u>action Forward<CR>
