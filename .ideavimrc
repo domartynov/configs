@@ -55,8 +55,9 @@ nnoremap gt :<C-u>action GotoTest<CR>
 
 nnoremap ,j :<C-u>action MethodDown<CR>
 nnoremap ,k :<c-u>action MethodUp<CR>
-vnoremap ,j :<C-u>action EditorSelectWord<CR>
-vnoremap ,k :<c-u>action EditorUnSelectWord<CR>
+
+vnoremap H :<C-u>action EditorSelectWord<CR>
+vnoremap L :<c-u>action EditorUnSelectWord<CR>
 nnoremap ,l :<C-u>action GotoNextError<CR>
 nnoremap ,h :<C-u>action GotoPreviousError<CR>
 
