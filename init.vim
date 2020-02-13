@@ -28,6 +28,7 @@ call plug#end()
 let g:sneak#streak = 1
 
 map <C-n> :NERDTreeToggle<CR>
+let NERDTreeShowHidden=1 "I (shift_i) to toggle
 
 let g:secure_modelines_allowed_items = [
                 \ "textwidth",   "tw",
