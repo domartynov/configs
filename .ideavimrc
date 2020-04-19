@@ -61,6 +61,9 @@ vnoremap L :<c-u>action EditorUnSelectWord<CR>
 nnoremap ,l :<C-u>action GotoNextError<CR>
 nnoremap ,h :<C-u>action GotoPreviousError<CR>
 
+nnoremap ,c :<C-u>action RunClass<CR>
+vnoremap ,c :<C-u>action RunClass<CR>
+
 " Alt mapping to match nix to send Esc
 inoremap <A-h> <Esc><h>
 inoremap <A-j> <Esc><j>
