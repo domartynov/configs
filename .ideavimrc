@@ -11,6 +11,9 @@ set ideajoin
 
 nnoremap ,a :<C-u>action GotoAction<CR>
 vnoremap ,a :<C-u>action GotoAction<CR>
+nnoremap ,t :<C-u>action GotoClass<CR>
+vnoremap ,t :<C-u>action GotoClass<CR>
+
 
 nnoremap ,e :<C-u>action SearchEverywhere<CR>
 nnoremap ,s :<C-u>action FileStructurePopup<CR>
